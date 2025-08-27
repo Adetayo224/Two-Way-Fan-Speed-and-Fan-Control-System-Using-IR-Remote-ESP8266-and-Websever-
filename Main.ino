@@ -5,8 +5,8 @@
 #include <IRutils.h>
 
 // WiFi credentials
-const char* ssid = "Samfred";
-const char* password = "samfred224";
+const char* ssid = "**********";
+const char* password = "**********";
 
 // IR setup
 const uint16_t RECV_PIN = D6;
@@ -102,3 +102,4 @@ String getPage(String message) {
   page += "<a href=\"/high\"><button>High Speed</button></a>";
   page += "<a href=\"/off\"><button>OFF</button></a>";
   page += "</body></html>";
+
